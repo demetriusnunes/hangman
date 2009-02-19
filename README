@@ -1,0 +1,19 @@
+= HANGMAN in SHOES
+
+A really simple Hangman game, that fetches random words from the Internet.
+
+My motivation for this game was for learning purposes only.
+
+It currently uses this website for words:
+http://watchout4snakes.com/creativitytools/RandomWord/RandomWord.aspx
+
+This game is implemented using the Shoes GUI toolkit (Raisins - r1134):
+http://shoooes.net/
+
+This code can also be downloaded from:
+http://the-shoebox.org/apps/133
+
+--
+
+Demetrius Nunes
+http://www.demetriusnunes.com
