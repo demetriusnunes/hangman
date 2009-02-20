@@ -62,11 +62,11 @@ Shoes.app(:title => "Hangman!",
     stack {
       caption "Take a guess!"
       @secret = caption("_ " * @word.size)
-      flow(:top => 510) {
-        ("A".."Z").each { |l|
-          button(l) { |b|
-            b.state = 'disabled'
-            guess(l)
+      flow(:top => 500) {
+        ("A".."Z").each { |letter|
+          button(letter) { |btn|
+            btn.state = 'disabled'
+            guess(letter)
           }
         }
       }
